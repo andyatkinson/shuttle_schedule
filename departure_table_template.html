@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Departing</th>
+        <th>Arriving</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#rows}}
+      <tr data-hour="{{hour}}" data-lat="{{lat}}" data-lon="{{lon}}">
+        <td>{{time}}</td>
+        <td>{{departing}}</td>
+        <td>{{arriving}}</td>
+      </tr>
+      {{/rows}}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,19 @@
+.guide {
+  position:fixed;
+  bottom:0;
+  left:0;
+  background-color:#000;
+  color:#fff;
+  padding:5px 10px;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size:1.5em;
+  line-height:1.5em;
+  text-align:middle;
+}
+.table th, .table td{
+  width:34%;
+  font-size:2em;
+  line-height:1.1em;
+  padding:1.1em;
+}
